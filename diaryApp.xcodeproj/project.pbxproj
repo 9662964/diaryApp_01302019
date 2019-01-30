@@ -13,6 +13,7 @@
 		7332C551220155D30007ED17 /* diaryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7332C54F220155D30007ED17 /* diaryApp.xcdatamodeld */; };
 		7332C553220155D60007ED17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7332C552220155D60007ED17 /* Assets.xcassets */; };
 		7332C556220155D60007ED17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7332C554220155D60007ED17 /* LaunchScreen.storyboard */; };
+		7332C55E220157240007ED17 /* addTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332C55D220157240007ED17 /* addTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7332C552220155D60007ED17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7332C555220155D60007ED17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7332C557220155D60007ED17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7332C55D220157240007ED17 /* addTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7332C548220155D30007ED17 /* AppDelegate.swift */,
 				7332C54A220155D30007ED17 /* ViewController.swift */,
 				7332C54C220155D30007ED17 /* Main.storyboard */,
+				7332C55D220157240007ED17 /* addTaskViewController.swift */,
 				7332C552220155D60007ED17 /* Assets.xcassets */,
 				7332C554220155D60007ED17 /* LaunchScreen.storyboard */,
 				7332C557220155D60007ED17 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7332C551220155D30007ED17 /* diaryApp.xcdatamodeld in Sources */,
+				7332C55E220157240007ED17 /* addTaskViewController.swift in Sources */,
 				7332C54B220155D30007ED17 /* ViewController.swift in Sources */,
 				7332C549220155D30007ED17 /* AppDelegate.swift in Sources */,
 			);
