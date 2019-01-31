@@ -52,7 +52,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let nextVC = segue.destination as! addTaskViewController
-        nextVC.task = sender as! Task
+        nextVC.task = sender as? Task
     }
 
     
